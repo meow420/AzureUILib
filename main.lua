@@ -1,3 +1,7 @@
+local Mouse = game.Players.LocalPlayer:GetMouse()
+local input = game:GetService("UserInputService")
+local Valueee;
+
 local azureLib = {}
 
 function azureLib:DraggingEnabled(frame, parent)
