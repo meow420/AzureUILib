@@ -1,4 +1,6 @@
-function azure:DraggingEnabled(frame, parent)
+local azureLib = {}
+
+function azureLib:DraggingEnabled(frame, parent)
     parent = parent or frame
 
     local dragging = false
@@ -32,7 +34,7 @@ function azure:DraggingEnabled(frame, parent)
     end)
 end
 
-function azure:CreateWindow(hubnamee)
+function azureLib:CreateWindow(hubnamee)
     local UI = Instance.new("ScreenGui")
     local MainWindow = Instance.new("Frame")
     local UICorner = Instance.new("UICorner")
