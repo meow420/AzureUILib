@@ -51,7 +51,7 @@ function azureLib:CreateWindow(hubnamee)
     local SectionBackground = Instance.new("Frame")
     local SectionContainers = Instance.new("Folder")
 
-    azure:DraggingEnabled(MainWindow, MainWindow)
+    azureLib:DraggingEnabled(MainWindow, MainWindow)
     
     UI.Name = "UI"
     UI.Parent = game.CoreGui
